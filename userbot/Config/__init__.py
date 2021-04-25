@@ -1,1 +1,1 @@
-from .catub_config import Config
+from .whitedevil_config import Config

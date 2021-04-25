@@ -18,7 +18,7 @@ class Config(object):
     API_HASH = os.environ.get("API_HASH") or None
     # Datbase url heroku sets it automatically else get this from elephantsql
     DB_URI = os.environ.get("DATABASE_URL", None)
-    # Get this value by running python3 stringsetup.py or https://repl.it/@sandeep1709/generatestringsession
+    # Get this value by running python3 stringsetup.py
     STRING_SESSION = os.environ.get("STRING_SESSION", None)
     # Telegram BOT Token and bot username from @BotFather
     TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN") or os.environ.get(
@@ -31,7 +31,7 @@ class Config(object):
     TZ = os.environ.get("TZ", "Asia/Kolkata")
     # set this with required cat repo link
     UPSTREAM_REPO = os.environ.get(
-        "UPSTREAM_REPO", "https://github.com/sandy1709/catuserbot.git"
+        "UPSTREAM_REPO", "https://github.com/WhiteDevil-OP/WhiteDevil-X"
     )
 
     # BASIC and MAIN CONFIG VARS
@@ -72,7 +72,7 @@ class Config(object):
     CLEAN_WELCOME = os.environ.get("CLEAN_WELCOME", True)
     # for custom thumb image set this with your required thumb telegraoh link
     THUMB_IMAGE = os.environ.get(
-        "THUMB_IMAGE", "https://telegra.ph/file/ca95524e4734b0d5461b5.jpg"
+        "THUMB_IMAGE", "https://telegra.ph/file/ccab46a9547a9d5e141fa.jpg"
     )
     # set blacklist_chats where you do not want userbot's features
     UB_BLACK_LIST_CHAT = {
